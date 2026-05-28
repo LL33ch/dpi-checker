@@ -4,7 +4,8 @@
     "subtitle": "Детектор цензуры и блокировок интернета",
     "checker": "Проверка",
     "statistics": "Статистика",
-    "ipWhitelistCheck": "Проверка IP в БС"
+    "ipWhitelistCheck": "Проверка IP в БС",
+    "httpTest": "HTTP тест"
   },
   "UserInfo": {
     "ip": "IP",
@@ -47,6 +48,19 @@
     "verdictMedium": "Средняя вероятность",
     "verdictLow": "Низкая вероятность",
     "verdictNone": "Не найден"
+  },
+  "HttpTest": {
+    "targetUrl": "Целевой URL",
+    "requestCount": "Количество запросов",
+    "runTest": "Запустить тест",
+    "stop": "Стоп",
+    "success": "Успешно",
+    "failures": "Ошибки",
+    "avg": "Среднее",
+    "min": "Мин",
+    "max": "Макс",
+    "responseTime": "Время ответа (мс)",
+    "requestN": "Запрос №"
   },
   "Stats": {
     "empty": "История проверок пуста",

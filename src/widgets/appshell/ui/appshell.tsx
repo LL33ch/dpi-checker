@@ -1,7 +1,7 @@
 'use client';
 import { AppShell, Burger, Button, Container, Group, NavLink, Stack, Title } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ChartLineIcon, ListChecksIcon, SparkleIcon } from '@phosphor-icons/react';
+import { ChartLineIcon, ListChecksIcon, SparkleIcon, TimerIcon } from '@phosphor-icons/react';
 import { LangChange } from '@widgets/lang-change';
 import { GithubButton } from '@widgets/github-button';
 import { useTranslations } from 'next-intl';
@@ -36,6 +36,9 @@ export function AppShellMain({ children }: { children: React.ReactNode }) {
             <Button variant='subtle' color='gray' href='/wl-ip' component={Link}>
               {t('ipWhitelistCheck')}
             </Button>
+            <Button variant='subtle' color='gray' href='/http-test' component={Link}>
+              {t('httpTest')}
+            </Button>
           </Group>
           <Group ms='auto'>
             <LangChange />
@@ -64,6 +67,13 @@ export function AppShellMain({ children }: { children: React.ReactNode }) {
           label={t('ipWhitelistCheck')}
           component={Link}
           leftSection={<SparkleIcon size={18} />}
+          onClick={toggle}
+        />
+        <NavLink
+          href='/http-test'
+          label={t('httpTest')}
+          component={Link}
+          leftSection={<TimerIcon size={18} />}
           onClick={toggle}
         />
       </AppShell.Navbar>

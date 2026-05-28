@@ -4,7 +4,8 @@
     "subtitle": "Internet Censorship & Blocking Detector",
     "checker": "Checker",
     "statistics": "Statistics",
-    "ipWhitelistCheck": "IP Whitelist Check"
+    "ipWhitelistCheck": "IP Whitelist Check",
+    "httpTest": "HTTP Test"
   },
   "UserInfo": {
     "ip": "IP",
@@ -47,6 +48,19 @@
     "verdictMedium": "Medium probability",
     "verdictLow": "Low probability",
     "verdictNone": "Not found"
+  },
+  "HttpTest": {
+    "targetUrl": "Target URL",
+    "requestCount": "Number of requests",
+    "runTest": "Run Test",
+    "stop": "Stop",
+    "success": "Success",
+    "failures": "Failures",
+    "avg": "Avg",
+    "min": "Min",
+    "max": "Max",
+    "responseTime": "Response time (ms)",
+    "requestN": "Request #"
   },
   "Stats": {
     "empty": "No test history yet",
